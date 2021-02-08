@@ -1,12 +1,12 @@
 # Lesson-16-Modules
-import MOD16            # Импорт модуля
+import Lesson_16_MOD            # Импорт модуля
 
-from MOD16 import *     # Импорт функций из модуля
+from Lesson_16_MOD import *     # Импорт функций из м
 
 # -----------------------------MAIN-------------------------
-MOD16.aaa()             # Вывод функций указвая модуль
-MOD16.bbb()
-MOD16.ccc()
+Lesson_16_MOD.aaa()             # Вывод функций указвая модуль
+Lesson_16_MOD.bbb()
+Lesson_16_MOD.ccc()
 
 aaa()                   # Вывод функций из модуля MOD16 не указывая модль
 bbb()
